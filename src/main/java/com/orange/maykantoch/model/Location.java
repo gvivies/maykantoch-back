@@ -7,6 +7,8 @@ public class Location {
 	private String coordX;
 	private String coordY;
 
+	public Location() {}
+	
 	public Location(String id, String username, String coordX, String coordY) {
 		super();
 		this.id = id;

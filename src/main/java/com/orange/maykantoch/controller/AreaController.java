@@ -29,8 +29,8 @@ public class AreaController {
 	@RequestMapping(value = "/api/locations", method = RequestMethod.POST)
 	@ResponseBody
 	public void store(@RequestBody Location location) {
-		String id = location.getId() + location.getUsername();
-		locations.put(id, location);
+		//String id = location.getId() + location.getUsername();
+		locations.put(location.getUsername(), location);
 	}
 	
 	private HashMap<String, Location> getMocks() {

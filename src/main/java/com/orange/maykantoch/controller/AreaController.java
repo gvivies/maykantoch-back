@@ -22,12 +22,7 @@ public class AreaController {
 	@RequestMapping(value = "/api/locations", method = RequestMethod.GET)
 	@ResponseBody
 	public List<Location> list() {
-		/*
-		List<Location> mock = new ArrayList<Location>();
-		mock.add(new Location("2", "Neila", "296", "126"));
-		mock.add(new Location("3", "Bruno", "196", "246"));
-		*/
-		locations = getMocks();
+		//locations = getMocks();
 		return (List<Location>) locations.values().stream().collect(Collectors.toList());
 	}
 	

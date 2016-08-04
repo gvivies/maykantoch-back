@@ -4,12 +4,12 @@ public class Location {
 
 	private String id;
 	private String username;
-	private String coordX;
-	private String coordY;
+	private int coordX;
+	private int coordY;
 
 	public Location() {}
 	
-	public Location(String id, String username, String coordX, String coordY) {
+	public Location(String id, String username, int coordX, int coordY) {
 		super();
 		this.id = id;
 		this.username = username;
@@ -33,19 +33,19 @@ public class Location {
 		this.username = username;
 	}
 
-	public String getCoordX() {
+	public int getCoordX() {
 		return coordX;
 	}
 
-	public void setCoordX(String coordX) {
+	public void setCoordX(int coordX) {
 		this.coordX = coordX;
 	}
 
-	public String getCoordY() {
+	public int getCoordY() {
 		return coordY;
 	}
 
-	public void setCoordY(String coordY) {
+	public void setCoordY(int coordY) {
 		this.coordY = coordY;
 	}
 

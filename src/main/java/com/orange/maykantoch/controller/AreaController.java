@@ -35,8 +35,8 @@ public class AreaController {
 	
 	private HashMap<String, Location> getMocks() {
 		HashMap<String, Location> mocks = new HashMap<String, Location >();
-		mocks.put("Neila2", new Location("2", "Neila", "296", "126"));
-		mocks.put("Bruno3", new Location("3", "Bruno", "196", "246"));
+		mocks.put("Neila2", new Location("2", "Neila", 29, 126));
+		mocks.put("Bruno3", new Location("3", "Bruno", 196, 246));
 		return mocks;
 	}
 }

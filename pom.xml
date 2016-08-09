@@ -25,18 +25,6 @@
 
 	<repositories>
 		<repository>
-			<id>RD Repository Releases</id>
-			<url>http://maven2.rd.francetelecom.fr/proxy/content/groups/public</url>
-		</repository>
-		<repository>
-			<id>inhouse</id>
-			<url>http://maven2.rd.francetelecom.fr/proxy/content/repositories/inhouse</url>
-		</repository>
-		<repository>
-			<id>inhouse.snapshot</id>
-			<url>http://maven2.rd.francetelecom.fr/proxy/content/repositories/inhouse.snapshot</url>
-		</repository>
-		<repository>
 			<id>central</id>
 			<url>https://repo1.maven.org/maven2</url>
 			<releases>
@@ -46,10 +34,6 @@
 	</repositories>
 
 	<pluginRepositories>
-		<pluginRepository>
-			<id>RD Repository</id>
-			<url>http://maven2.rd.francetelecom.fr/proxy/repository/public</url>
-		</pluginRepository>
 		<pluginRepository>
 			<id>central</id>
 			<url>https://repo1.maven.org/maven2</url>
